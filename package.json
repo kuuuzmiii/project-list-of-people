@@ -1,0 +1,19 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "Пользователю предлагается выбрать набор данных: маленький или большой. \r При выборе набора данных он загружается с сервера и по данным строится таблица.\r Сервер возвращает JSON-массив данных.",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "util": "^0.12.4"
+  }
+}

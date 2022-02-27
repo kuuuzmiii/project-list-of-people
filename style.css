@@ -1,0 +1,117 @@
+.dannies{
+    display: block;
+    width:100%;
+    /*position: relative;*/
+}
+.inner_dans{
+    height: 100%;
+    width:100%;
+}
+.osnov{
+    width: 100%;
+    height: 100%;
+}
+.functional{
+    width:60%;
+    display: flex;
+}
+.search{
+    margin: 0 10px ;
+}
+.date{
+    height:1150px;
+    width:60%;
+}
+.item,.items{
+    display: flex;
+    margin: 5px 5px;
+    padding: 5px;
+    width:100%;
+}
+.items{
+    background-color: #4682B4;
+}
+.id{
+    width:10%;
+    height: 3%;
+}
+.firstName{
+    width:22%;
+    height: 3%;
+}
+.lastName{
+    width:25%;
+    height: 3%;
+}
+.email{
+    width:35%;
+    height: 3%;
+}
+.phone{
+    width:30%;
+    height: 3%;
+}
+.dopData{
+    display:none;   
+}
+.activ{ 
+    display: block;
+    border:5px solid #000080;
+    font-size: 20px;
+    border-radius: 15px;
+    padding: 5px;
+}
+.noactiv{
+    display: none;
+}
+.strel{
+    display: none;
+}
+.strelk{
+    display: block;
+}
+.addforms input{
+    width: 350px;
+}
+
+.addforms {
+    display:flex;
+    flex-direction: column;
+}
+.search{
+    display: flex;
+}
+button{
+    background-color: #1E90FF;
+    color:#FFFFFF;
+    width:23%;
+    height:25px;
+    /* outline:none; */
+    border: none;
+    margin:1px;
+    border-radius: 3%;
+}
+.btn2{
+    flex: 0 0 33%;
+    height:95%;
+}
+.textNumber{
+    text-align:center;
+    transform: translateY(40%);
+}
+.noactivBtn{
+    background-color: #000080;
+}
+.hover{
+    background-color: #7B68EE;
+}
+.addPeoplenoActiv{
+    background-color: #FA8072;
+}
+.inp{
+    border: 1px solid #1E90FF;
+    height: 85%;
+}
+.activPeople{
+    background-color:#00FF7F !important;
+}
